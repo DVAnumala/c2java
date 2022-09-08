@@ -1,0 +1,12 @@
+void push (stack *s, int element)
+  {
+   if (s->top == (MAXSIZE-1))
+   {
+     printf (“\n Stack overflow”);
+         exit(-1);
+     }
+     else
+     {
+         s->top++;
+         s->st[s->top] = element;
+}}
